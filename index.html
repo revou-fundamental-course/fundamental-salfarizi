@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Website</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="img/spimic logo.png" alt="Logo">
+                <span class="text-logo">SPIMIC</span>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#content" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Our Works</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="home">
+            <h1 id="welcome-message">Hi, Welcome to our Website</h1>
+            <p>"Build Your Digital Dreams"</p>
+        </section>
+        <div class="carousel" id="banner">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner1.png" alt="Banner 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner1.png" alt="Banner 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner1.png" alt="Banner 3">
+                </div>
+            </div>
+            <a class="carousel-control prev" onclick="prevSlide()">❮</a>
+            <a class="carousel-control next" onclick="nextSlide()">❯</a>
+        </div>
+        <div class="content-wrapper">
+            <div id="content" class="content">
+                <article class="article" id="about">
+                    <h2 class="article-title">About Us</h2>
+                    <p class="article-content">Kami adalah tim yang bersemangat di bidang solusi IT, berdedikasi untuk
+                        memberikan pengalaman terbaik kepada pelanggan kami. SPIMIC Studio didirikan dengan visi untuk
+                        menciptakan solusi yang inovatif dan memecahkan tantangan teknologi yang kompleks.
+                        <br><br>
+                        Di SPIMIC Studio, kami menggabungkan keahlian teknis yang mendalam dengan kreativitas untuk
+                        menghadirkan solusi IT yang unggul. Dari pengembangan perangkat lunak hingga desain UI/UX, kami
+                        menyediakan layanan yang mencakup seluruh spektrum kebutuhan teknologi informasi.
+                        <br><br>
+                        Kami percaya bahwa kolaborasi adalah kunci kesuksesan. Dengan pendekatan yang terbuka dan
+                        berorientasi pada pelanggan, kami bekerja bersama Anda untuk memahami kebutuhan unik Anda dan
+                        menyajikan solusi yang sesuai.
+                        <br><br>
+                        Komitmen kami terhadap kualitas dan keunggulan tidak pernah pudar. Kami terus-menerus mengejar
+                        inovasi dan meningkatkan kemampuan kami agar dapat memberikan nilai tambah yang signifikan
+                        kepada
+                        bisnis Anda.
+                        <br><br>
+                        SPIMIC Studio bukan hanya tentang teknologi, tetapi juga tentang membangun hubungan jangka
+                        panjang
+                        dengan pelanggan kami. Kami berusaha untuk menjadi mitra tepercaya Anda dalam perjalanan
+                        teknologi
+                        Anda.
+                        <br><br>
+                        Terima kasih telah memilih Spimic Studio sebagai mitra teknologi Anda. Kami berharap dapat
+                        bekerja
+                        sama dengan Anda untuk mencapai kesuksesan bersama.
+                    </p>
+                </article>
+                <article class="article">
+                    <h2 class="article-title">What's SPIMIC?</h2>
+                    <p class="article-content">SPIMIC Studio lahir dari pertemuan kami di sebuah organisasi kampus.
+                        Berawal dari visi dan semangat yang sama, kami bertemu di dalam organisasi tersebut dan mulai
+                        merajut mimpi bersama. Setelah melewati berbagai rintangan dan tantangan selama masa studi, kami
+                        berhasil menyelesaikan pendidikan kami dengan penuh dedikasi dan kegigihan.
+                        <br><br>
+                        Nama "SPIMIC" merupakan plesetan dari nama kampus kami sebelum pindah ke kampus yang sekarang
+                        kami lulus. Nama ini mengandung kenangan dan semangat perjuangan kami selama masa studi, yang
+                        kemudian menjadi landasan bagi inisiatif kami untuk mendirikan startup ini.
+                        <br><br>
+                        Di SPIMIC Studio, kami menggabungkan berbagai keahlian dan pengalaman yang kami peroleh selama
+                        masa studi untuk menciptakan solusi IT yang inovatif dan relevan. Kami percaya bahwa teknologi
+                        dapat menjadi pendorong utama dalam mencapai kesuksesan bisnis, dan kami berkomitmen untuk
+                        membantu klien kami dalam mewujudkan potensi penuh dari teknologi tersebut.
+                    </p>
+                </article>
+            </div>
+            <aside class="aside">
+                <h1 class="article-title">Our Teams</h1>
+                <img src="img/pp1.png" alt="Foto Salman" class="aside-img">
+                <p class="aside-text"><strong>Salman Alfarizi</strong> <br> Frontend</p>
+
+                <img src="img/pp2.png" alt="Foto Gian" class="aside-img">
+                <p class="aside-text"><strong>Gian Sonia</strong> <br> Backend</p>
+
+                <img src="img/pp3.png" alt="Foto Aril" class="aside-img">
+                <p class="aside-text"><strong>M. Syahril Suhandi</strong> <br> Product Design</p>
+
+                <img src="img/pp4.png" alt="Foto Gian" class="aside-img">
+                <p class="aside-text"><strong>M. Faris Khairullah</strong> <br> Business Analyst</p>
+            </aside>
+        </div>
+        <section id="portfolio" class="portfolio">
+            <h2 class="portfolio-title">Our Works</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="img/siagkar.png" alt="Work 1">
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/sismac.png" alt="Work 2">
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="contact-title">Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="contact-title">Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p><i class="bx bx-envelope"></i> Email: spimicstudio@gmail.com</p>
+                    <p><i class="bx bxl-whatsapp"></i> Whatsapp: +62 899-1234-5678</p>
+                    <p><i class="bx bx-map"></i> Address: Jl. HZ No. 123, Tasikmalaya, Indonesia</p>
+                </div>
+            </div>
+            <p class="footer-text">© 2024 SPIMIC. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.carousel-item');
+            if (index >= slides.length) {
+                currentIndex = 0;
+            } else if (index < 0) {
+                currentIndex = slides.length - 1;
+            } else {
+                currentIndex = index;
+            }
+
+            const offset = -currentIndex * 100;
+            document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[currentIndex].classList.add('active');
+        }
+
+        function nextSlide() {
+            showSlide(currentIndex + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentIndex - 1);
+        }
+
+        // Smooth scroll function
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Active link update function
+        const sections = document.querySelectorAll('section, .content, .carousel, .contact');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 60 && pageYOffset < sectionTop + sectionHeight - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+
+            // Make sure Home link is active by default
+            if (!current) {
+                document.querySelector('.nav-link[href="#home"]').classList.add('active');
+            }
+        });
+
+        // Initial slide display
+        showSlide(currentIndex);
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
